@@ -1,0 +1,42 @@
+/* FONT STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* VARIABLES */
+:root {
+    --TEXT-COLOR: #fe5638;
+}
+
+/* GENERAL STYLES */
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+body {
+    background-color: black;
+    color: var(--TEXT-COLOR);
+    padding: 0.5em;
+    min-height: 100vh;
+    text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+
+    border-radius: 16px;
+}
