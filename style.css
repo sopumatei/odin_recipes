@@ -1,0 +1,84 @@
+/* FONT STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* VARIABLES */
+:root {
+    --TEXT-COLOR: #fe5638;
+}
+
+/* GENERAL STYLES */
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+body {
+    background-color: black;
+    color: var(--TEXT-COLOR);
+    padding: 0.5em;
+    min-height: 100vh;
+    text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+
+    border-radius: 16px;
+}
+
+a {
+    color: var(--TEXT-COLOR);
+    text-decoration: none;
+
+    transition: all 0.1s linear;
+}
+
+a:hover {
+    /* transform: scale(1.1); */
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.6;
+}
+
+/* LINKS SECTION */ 
+#all-links-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.link-container {
+    background-color: #1c1c1c;
+    padding: 0.5em;
+    border-radius: 16px;
+
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.25em;
+}
+
+
+
+
+
