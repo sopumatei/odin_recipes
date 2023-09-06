@@ -1,6 +1,14 @@
 /* FONT STYLE */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* VARIABLES */
+:root {
+    --BACKGROUND-COLOR: #000;
+    --SECOND-BACKGROUND-COLOR: #1c1c1c;
+    --TEXT-COLOR: #fe5638;
+    --SECOND-TEXT-COLOR: #fff;
+}
+
 /* RESET */
 * {
     margin: 0;
@@ -39,4 +47,72 @@ img {
     height: 450px;
 
     border-radius: 16px;
+}
+
+/* MAIN SECTION */
+#root {
+    background-color: var(--SECOND-BACKGROUND-COLOR);
+    padding: 0.5em;
+    border-radius: 16px;
+}
+
+/* RECIPE SECTION */
+#recipe-container {
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+
+    color: var(--SECOND-TEXT-COLOR);
+}
+
+#recipe-container h2 {
+    color: var(--TEXT-COLOR);
+}
+
+#recipe-container li {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 300px) {
+    html {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 1.4rem;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 1.6rem;
+    }
+
+    img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    html {
+        font-size: 1.8rem;
+    }
 }
