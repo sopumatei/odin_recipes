@@ -11,6 +11,7 @@
 
 /* VARIABLES */
 :root {
+    --SECOND-BACKGROUND-COLOR: #1c1c1c;
     --TEXT-COLOR: #fe5638;
 }
 
@@ -76,6 +77,28 @@ a:active {
     justify-content: space-between;
     align-items: center;
     gap: 0.25em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 300px) {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    img {
+        width: 450px;
+        height: 450px;
+    }
 }
 
 
